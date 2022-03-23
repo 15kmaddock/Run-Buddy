@@ -62,29 +62,21 @@ footer div {
 }
 
 footer a {
-    color: 024e76;
+    color: #024e76;
 }
 
 section {
     padding: 60px;
-    background-image: url(./images/hero-bg.jpg);
 }
 
 /* Hero Style Start*/
 .hero {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url('../images/hero-bg.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
-
-.hero {
-    background-position: bottom;
-    height: auto;
-    text-align: center;
-    margin-bottom: 40px;
-  }
 
 /* secondary page hero */
 
@@ -93,7 +85,7 @@ section {
     color: red;
 }
 
-.hero-form{
+.hero-form {
     background-color: #fce138;
     padding: 20px;
     width: 500px;
@@ -126,7 +118,7 @@ section {
 }
 
 .hero-form label {
-    margin: 5px;
+    margin: 0 5px;
 }
 
 .hero-form button {
